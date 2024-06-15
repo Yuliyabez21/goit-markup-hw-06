@@ -555,19 +555,6 @@ overflow: hidden;
 }
 
 
-
-.features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    /* margin-top: 32px; */
-    margin-bottom: 8px;
-    text-align: left;
-}
-
-
 .features-text {
     font-weight: 400;
     font-size: 16px;
@@ -1111,12 +1098,10 @@ display: none;
 
 .features-ul {
 gap: 72px 24px;
-flex-direction: row;
-flex-wrap: wrap;
 }
 
 .features-list {
-    /* width: calc((100% - 24px) / 2);  */
+    width: calc((100% - 24px) / 2); 
 }
 
 }
