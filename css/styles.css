@@ -339,7 +339,11 @@ gap: 24px; зайве
     background-color: #F4F4FD;
     text-transform: capitalize;
     color: #2e2f42;
-    padding: 120px 0
+    padding: 72px 0;
+    width: 100%;
+
+    
+
 }
 
 
@@ -357,9 +361,11 @@ gap: 24px; зайве
 
 .team-ul {
     display: flex;
-    column-gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
+    /* column-gap: 24px;
     row-gap: 48px;
-    gap: 24px;
+    gap: 24px; */
     
     
 }
@@ -367,8 +373,9 @@ gap: 24px; зайве
 .team-list {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 3 * 24px)/4);
+    /* width: calc((100% - 3 * 24px)/4); */
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: 100%;
 }
 
 
@@ -396,6 +403,7 @@ padding: 32px 0;
 
 .team-text {
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -406,9 +414,9 @@ padding: 32px 0;
     display: flex;
         gap: 24px;
         justify-content: center;
-    /* margin-top: 8px;
-    margin-bottom: 32px;
-    margin-left: 16px; */
+    /* margin-top: 8px */
+    /* margin-bottom: 32px;
+    margin-left: 16px; */ 
 }
 
 .team-link:hover {
@@ -423,7 +431,8 @@ padding: 32px 0;
 display: flex;
 justify-content: center;
 gap: 24px;
-   
+width: 100%;
+padding-top: 8px;
     
 }
 
@@ -1117,7 +1126,13 @@ gap: 72px 24px;
 }
 
 
+.team-ul {
+gap: 64px 24px;
+}
 
+.team-list {
+    width: calc((100% - 24px)/2);
+}
 }
 
 /* -------media-desktop---------- */
@@ -1159,18 +1174,23 @@ gap: 40px;
 width: calc((100% - 3* 24px) / 4);
 }
 
-.portfolio-ul {
-gap: 48px 24px;
-}
-
 .features-list-li {
 width: calc(100 - 2 * 24)/3;
 }
 
+.team {
+    padding: 120px 0;
 }
 
+.team-ul {
+    gap: 24px;
+}
 
+.team-list {
+    width: calc((100% - 3 * 24px)/4);
+}
 
-
-
-
+.portfolio-ul {
+    gap: 48px 24px;
+}
+}
