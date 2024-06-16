@@ -614,7 +614,7 @@ overflow: hidden;
 
 .box-footer-logo {
     /* margin-right: 120px; */
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     max-width: 320px;
     /* align-items: center; */
@@ -630,13 +630,12 @@ overflow: hidden;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom: 16px;
+    padding-bottom:  16px;
     display: inline-block;
     width: 100%;
-    margin: 0 auto;
-
-
-
+    padding-left: 86px;
+    
+    
 }
 
 .footer-logo-color {
@@ -1189,6 +1188,9 @@ gap: 64px 24px;
     padding-left: 92px;
 }
 
+.footer-logo {
+padding-left: 0;
+}
 
 .box-footer-social {
     display: block;
@@ -1277,12 +1279,13 @@ width: calc(100 - 2 * 24)/3;
     justify-content: space-around;
 
 }
-.footer {
-    
+.footer-container {
+   flex-wrap: nowrap; 
 }
 
 .box-footer-logo {
     padding-right: 120px;
+    max-width: 100%;
 }
 
 .box-footer-social {
