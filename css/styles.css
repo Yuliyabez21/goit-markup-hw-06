@@ -707,7 +707,7 @@ gap: 24px; зайве
 .features-subtitle-portf {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
@@ -849,7 +849,7 @@ gap: 24px; зайве
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     /* margin: 0 auto; */
     align-items: center;
     justify-content: center;
@@ -912,7 +912,7 @@ gap: 24px; зайве
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFF;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 
 }
 
@@ -1275,7 +1275,9 @@ color: #4d5ae5;
         }
     }
 
-
+.header {
+    padding: 0;
+}
 
     .header-logo {
         margin-right: 120px;
@@ -1441,6 +1443,10 @@ margin-bottom: 72px;
         max-width: 1158px;
     }
 
+.header {
+padding: 0;
+        }
+
     .header-logo {
         margin-right: 76px;
     }
@@ -1541,6 +1547,7 @@ margin-bottom: 72px;
     .box-footer-logo {
         margin-right: 120px;
         max-width: 100%;
+        margin-bottom: 0;
     }
 
         .footer-text {
@@ -1549,6 +1556,7 @@ margin-bottom: 72px;
 
     .box-footer-social {
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
         .footer-form {
