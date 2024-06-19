@@ -1401,9 +1401,14 @@ color: #4d5ae5;
         padding-left: 0;
     }
 
+        .box-footer-logo {
+margin-bottom: 72px;
+        }
+
     .box-footer-social {
         display: block;
-        margin-left: 24px;
+        /* margin-left: 24px; це лишнє було*/
+        margin-bottom: 0;
 
     }
 
